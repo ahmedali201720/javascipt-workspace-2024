@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.ticker-container {
+  background-color: #cd0000;
+  overflow: hidden;
+}
+
+.ticker-container .ticker-list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+  transform: translateX(100%);
+}
+
+.ticker-container .ticker-list li {
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+}
